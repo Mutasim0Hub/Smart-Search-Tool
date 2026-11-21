@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Website Research",
+    "target": "website",
+    "scopes": ["web", "domain"],
+    "keywords": ["annual report"],
+    "domain": "example.com",
+    "exclude": ["draft"]
+  },
+  {
+    "name": "Document Research",
+    "target": "documents",
+    "scopes": ["domain", "file", "title"],
+    "keywords": ["annual financial report"],
+    "domain": "example.com",
+    "filetype": "pdf",
+    "title": "2025",
+    "exclude": ["draft"]
+  },
+  {
+    "name": "Academic Research",
+    "target": "academic",
+    "scopes": ["web", "title", "text"],
+    "keywords": ["cybersecurity compliance framework"],
+    "exclude": ["course"]
+  }
+]

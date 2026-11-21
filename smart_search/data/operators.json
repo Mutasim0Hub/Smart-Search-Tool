@@ -1,0 +1,98 @@
+[
+  {
+    "name": "site",
+    "syntax": "site:{domain}",
+    "description": "Restrict search to a domain.",
+    "category": "domain",
+    "input_type": "domain",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "-",
+    "syntax": "-{term}",
+    "description": "Exclude a term from the search.",
+    "category": "basic",
+    "input_type": "text",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "filetype",
+    "syntax": "filetype:{extension}",
+    "description": "Restrict results to a file extension.",
+    "category": "files",
+    "input_type": "extension",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "intitle",
+    "syntax": "intitle:{value}",
+    "description": "Search within page titles.",
+    "category": "title",
+    "input_type": "text",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "inurl",
+    "syntax": "inurl:{value}",
+    "description": "Search within URLs.",
+    "category": "url",
+    "input_type": "text",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "intext",
+    "syntax": "intext:{value}",
+    "description": "Search within the body text of a page.",
+    "category": "text",
+    "input_type": "text",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "OR",
+    "syntax": "term1 OR term2",
+    "description": "Match one term or another.",
+    "category": "basic",
+    "input_type": "text",
+    "status": "EXPERIMENTAL"
+  },
+  {
+    "name": "exact_phrase",
+    "syntax": "\"exact phrase\"",
+    "description": "Search for an exact phrase.",
+    "category": "basic",
+    "input_type": "text",
+    "status": "SUPPORTED"
+  },
+  {
+    "name": "allintitle",
+    "syntax": "allintitle:{value1 value2}",
+    "description": "Require all terms in the title.",
+    "category": "title",
+    "input_type": "text",
+    "status": "EXPERIMENTAL"
+  },
+  {
+    "name": "allinurl",
+    "syntax": "allinurl:{value1 value2}",
+    "description": "Require all terms in the URL.",
+    "category": "url",
+    "input_type": "text",
+    "status": "EXPERIMENTAL"
+  },
+  {
+    "name": "allintext",
+    "syntax": "allintext:{value1 value2}",
+    "description": "Require all terms in the page text.",
+    "category": "text",
+    "input_type": "text",
+    "status": "EXPERIMENTAL"
+  },
+  {
+    "name": "range",
+    "syntax": "2023..2025",
+    "description": "Limit results to a range of values.",
+    "category": "range",
+    "input_type": "text",
+    "status": "UNKNOWN"
+  }
+]
